@@ -1,6 +1,6 @@
 /* 
 
-1. Website Default Styling
+1. Website Styling
 2. Navigation
 3. Primary and Secondary Colors
 4. Banner
@@ -9,17 +9,13 @@
 7. Footer
 
 
-/*------------------------------------------------------------------------------------------*/
-/* 1. Website Default Styling */
-/*------------------------------------------------------------------------------------------*/
+/* 1. Website Styling */
 
 
 body {
     background:#fff;
 }
 
-
-/* Default Link Color */
 
 a, .la-ball-triangle-path {
     color:#d2b356;
@@ -29,13 +25,11 @@ a:hover, #header.nav-solid nav a:hover {
     color:#d2b356;
 }
 
-/* Default Icon Color */
 
 .icon i {
     color:#d2b356;
 }
 
-/* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
     background: #d2b356;
@@ -46,26 +40,19 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 
-/*------------------------------------------------------------------------------------------*/
+
 /* 2. Navigation */
-/*------------------------------------------------------------------------------------------*/
 
-
-/* Transparent Navigation Color on a Banner */
 
 #header nav a, #header i {
     color:#111;
 }
 
 
-/* Navigation Colors when the Navigation is sticky and solid */ 
-
 #header.nav-solid, #header.nav-solid a, #header.nav-solid i, #nav-mobile ul li a {
     color:#333;
 }
 
-
-/* Navigation Active State */
 
 #header.nav-solid .active {
     color: #d2b356;
@@ -73,13 +60,8 @@ a:hover, #header.nav-solid nav a:hover {
 }    
 
 
-
-/*------------------------------------------------------------------------------------------*/
 /* 3. Primary and Secondary Colors */
-/*------------------------------------------------------------------------------------------*/
 
-
-/* Primary Background and Text Colors */
 
 .primary-color, .featured .pricing {
     background-color:#d2b356;
@@ -116,12 +98,8 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 
-/*------------------------------------------------------------------------------------------*/
 /* 4. Banner */
-/*------------------------------------------------------------------------------------------*/
 
-
-/* Banner Background and Text Colors */
 
 #banner {
     background: url("../img/banner.jpg") no-repeat center top;
@@ -129,9 +107,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 
-/*------------------------------------------------------------------------------------------*/
 /* 5. Typography */
-/*------------------------------------------------------------------------------------------*/
 
 
 body {
@@ -141,26 +117,6 @@ body {
     color:#111;
 }
 
-/* Logo, if you are using Fonts as Logo and not image
-
-#logo h1 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-#logo h2 {
-    font-family:;
-    font-size:; 
-    font-weight:;
-    color:;
-}
-
-*/
-
-
-/* Banner Typography */
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -178,8 +134,6 @@ body {
 }
 
 
-/* Section Title and Subtitle */
-
 .section-title {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 34px; 
@@ -194,7 +148,6 @@ body {
     color:#9c9c9c;
 }
 
-/* Testimonial */
 
 .testimonial q {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -206,8 +159,6 @@ body {
     color:#111;
 }
 
-
-/* Standard Headings h1-h6 */
 
 h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -252,14 +203,9 @@ h6 {
 }
 
 
-/*------------------------------------------------------------------------------------------*/
 /* 6. Buttons */
-/*------------------------------------------------------------------------------------------*/
-
-/* ----------Default Buttons---------- */
 
 
-/* Button Text */
 
 .button, input[type="submit"]  {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -269,25 +215,17 @@ h6 {
 }
 
 
-/* Button Color */
 
 .button, input[type="submit"] {
     border-color:#111;
 }
 
 
-/* Button Hover Color */
-
 .button:hover,  input[type="submit"]:hover {
     border-color:#d2b356;
     color:#d2b356;
 }
 
-
-/* ----------Banner Buttons---------- */
-
-
-/* Button Text */
 
 #banner .button {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -296,24 +234,17 @@ h6 {
 }
 
 
-/* Button Color */
-
 #banner .button {
     border-color:#fff;
 }
 
-
-/* Button Hover Color */
 
 #banner .button:hover {
     color:#d2b356;
     border-color:#d2b356;
 }
 
-
-/*------------------------------------------------------------------------------------------*/
 /* 7. Footer */
-/*------------------------------------------------------------------------------------------*/
 
 #landing-footer, #landing-footer p, #landing-footer a {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
@@ -322,7 +253,6 @@ h6 {
     color:#999;
 }
 
-/* Footer Icon Color */
 
 #landing-footer i {
     color:#999;
